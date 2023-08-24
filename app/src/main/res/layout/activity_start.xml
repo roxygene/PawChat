@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bck_dog1"
+    android:padding="25dp"
+    tools:context=".StartActivity">
+
+
+    <android.widget.Button
+        android:id="@+id/btn_sign_in"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_round_black"
+        android:text="@string/start_sign_in"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/allerta"
+        app:layout_constraintBottom_toTopOf="@+id/btn_sign_up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <android.widget.Button
+        android:id="@+id/btn_sign_up"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_round_white"
+        android:text="@string/start_sign_up"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/allerta"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <android.widget.Button
+        android:id="@+id/button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/google_logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/logo_white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/armata"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
