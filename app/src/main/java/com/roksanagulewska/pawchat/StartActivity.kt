@@ -26,7 +26,7 @@ class StartActivity : AppCompatActivity() {
             }
         }
 
-        btnSignIn.setOnClickListener{
+        btnGoogle.setOnClickListener{
            
         }
 
