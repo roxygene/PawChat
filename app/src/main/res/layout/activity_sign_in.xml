@@ -21,6 +21,7 @@
 
     <EditText
         android:id="@+id/et_username"
+        style="@style/regular_edit_text"
         android:layout_width="240dp"
         android:layout_height="40dp"
         android:background="@drawable/btn_round_white"
@@ -31,7 +32,7 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/et_password"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logo"
         app:layout_constraintVertical_bias="0.375"
@@ -39,6 +40,7 @@
 
     <EditText
         android:id="@+id/et_password"
+        style="@style/regular_edit_text"
         android:layout_width="240dp"
         android:layout_height="40dp"
         android:layout_marginTop="5dp"
@@ -62,7 +64,6 @@
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
         android:text="@string/OK"
-        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
