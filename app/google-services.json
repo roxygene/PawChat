@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "988382789477",
+    "project_id": "pawchat-a02ad",
+    "storage_bucket": "pawchat-a02ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988382789477:android:f3c299186e024aa293ab8c",
+        "android_client_info": {
+          "package_name": "com.roksanagulewska.pawchat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8WuLZ-bm-FVpyVu9BjaaH8xsTT1QAz8E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

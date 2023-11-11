@@ -13,29 +13,12 @@
         android:id="@+id/logo"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_marginTop="120dp"
         android:src="@drawable/logo_white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/et_username"
-        style="@style/regular_edit_text"
-        android:layout_width="240dp"
-        android:layout_height="40dp"
-        android:background="@drawable/btn_round_white"
-        android:hint="@string/sign_hint_username"
-        android:paddingStart="10dp"
-        android:paddingEnd="10dp"
-        android:textColor="@color/black"
-        android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/et_email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logo"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed" />
 
     <EditText
@@ -43,7 +26,7 @@
         style="@style/regular_edit_text"
         android:layout_width="240dp"
         android:layout_height="40dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="80dp"
         android:background="@drawable/btn_round_white"
         android:hint="@string/sign_hint_email"
         android:paddingStart="10dp"
@@ -54,7 +37,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_username"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
         app:layout_constraintVertical_chainStyle="packed" />
 
     <EditText
@@ -62,27 +45,27 @@
         style="@style/regular_edit_text"
         android:layout_width="240dp"
         android:layout_height="40dp"
-        android:layout_marginTop="5dp"
         android:background="@drawable/btn_round_white"
         android:hint="@string/sign_hint_password"
         android:inputType="textPassword"
+        android:layout_marginTop="5dp"
         android:paddingStart="10dp"
         android:paddingEnd="10dp"
         android:textColor="@color/black"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/btn_ok"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_email" />
 
     <android.widget.Button
-        android:id="@+id/button"
+        android:id="@+id/btn_ok"
         style="@style/black_rounded_button"
         android:layout_width="240dp"
         android:layout_height="50dp"
-        android:layout_marginTop="20dp"
         android:text="@string/OK"
+        android:layout_marginTop="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
